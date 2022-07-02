@@ -1,0 +1,32 @@
+[
+    {
+    "radius": 1,
+    "id": "pointer",
+    "image": "#FFF"
+    },  {
+    "radius": 50,
+    "id": "SVG",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pY1IaNxquFTjtCw1I1iuMAHaHF%26pid%3DApi&f=1"
+    },  {
+    "radius": 10,
+    "id": "Raspberri",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rPLFK4vv67mlFisWznyVpQHaHa%26pid%3DApi&f=1"
+    },  {
+    "radius": 50,
+    "id": "GIMP",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Vwh7VjW3-KgaLdSewDRfOgHaHa%26pid%3DApi&f=1"
+    },  {
+    "radius": 50,
+    "id": "Python",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.lMY7IsCj1fDjEWWnNB26FwAAAA%26pid%3DApi&f=1"
+    },  {
+    "radius": 52,
+    "id": "js",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hUWKZxe-0H19tRRpKNPN0AAAAA%26pid%3DApi&f=1"
+    },  {
+    "radius": 50,
+    "id": "bash",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F20%2FBash_Logo_black_and_white_icon_only.svg%2F896px-Bash_Logo_black_and_white_icon_only.svg.png&f=1&nofb=1"
+    }
+]
+  

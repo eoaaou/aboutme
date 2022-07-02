@@ -1,9 +1,10 @@
 <template>
-  <app-header />
-  <skill-box />
-  <app-footer />  
+  <div class="wrapper">
+    <app-header />
+    <skill-box />
+    <app-footer />
+  </div>   
 </template>
-
   
 <script>
 import AppHeader from '@/components/AppHeader.vue'
@@ -14,29 +15,11 @@ export default {
   components: {
     AppHeader,
     SkillBox,
-    AppFooter
-    
+    AppFooter   
   }
 }
-
-
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 1px;
-  font-size: x-large;
-  font-weight:900;
-  color:#C0C0C0;
-}
-
-template {
-    position: relative;
-    height: 100%;
-}
+<style lang="scss">
+  @import '@/assets/styles/_app.scss';
 </style>

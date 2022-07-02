@@ -1,6 +1,12 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/d3-vue/'
-    : '/'
-})
+module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/eoaaou.github.io/" : "/",
+  css: {
+    loaderOptions: {
+      sass: {
+        additionalData: `
+          @import "@/assets/styles/_variables.scss";
+        `
+      }
+    }
+  }
+};
