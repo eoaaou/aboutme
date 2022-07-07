@@ -55,7 +55,7 @@
 .inner_main {
     margin-top: 0px;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     
     
 }
@@ -110,11 +110,10 @@ footer {
     
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .nav a {
-        float: none;
-        display: block;
+        display: none;
     }
     
     .main, .skills, #d3-graph {
