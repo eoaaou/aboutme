@@ -1,61 +1,123 @@
-.wrapper {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    font-family:'Orbitron', sans-serif;
     font-size: x-large;
-    font-weight:700;
-    
+    font-weight:900;
 }
 
-header {
-    padding: 100px;
-    background-color: rgb(60, 57, 111);
-    color: white;
-    text-align: center;
+.wrapper {
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
-    nav {   
-        ul li {
-            list-style: none;
-            margin: 1%;
-            font-size: 1em;
-            display: inline-flex;
-            vertical-align: left;
-        }
-    }
-    
-    #intro {
+.inner_header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border-bottom: 1px solid greenyellow;
+   
+}
+
+.nav {
+    float: none;
+    height: 100%;
+    a {
+        height: 100%;
+        display: table;
         float: left;
+        padding: 0px 20px;
+        li {
+            display: table-cell;
+            vertical-align: middle;
+            color: greenyellow;           
+        }
+        li:hover {
+            color: rgb(255, 179, 47);
+        }    
     }
 }
 
+// body
+
+#svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    max-height: 700px;
+}
 
 
-#info {
+.inner_main {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    
     
 }
 
-#body {
-        
+
+
+.about {
+    float: left;
+    text-align: center;
 }
+
+
 
   
-template {
-    position: relative;
-    height: 100%;
+// footer
+footer {
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid greenyellow;
 }
 
-footer {
-    height: 50px;
-    background-color: white;
-    padding: 70px solid 1px;
-    text-align: center;
-    color: $primary;
+
+.inner_footer {
+    width: 600px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+    
 }
+
+.foo {
+    float: none;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.foo a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    
+}
+
+
+.foo a li{
+    display: table-cell;
+    vertical-align: middle;
+    color: greenyellow;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .nav a {
+        float: none;
+        display: block;
+    }
+    
+    .main, .skills, #d3-graph {
+      width: 100%;
+    }
+  }

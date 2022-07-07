@@ -1,12 +1,17 @@
+
 <template>
   <header>
-    <nav>
-      <ul class="mainNav">
-        <li><a to="/about">ABOUT</a></li>
-        <li><a to="/skills">SKILLS</a></li>
-        <li><a to="/skills">CONTACTS</a></li>
-      </ul>
-    </nav>
+    <div class="header">
+      <div class="inner_header">
+        <ul class="nav">
+          <a><li>HERE</li></a>
+          <a><li>ABOUT</li></a>
+          <a><li>CONNECT</li></a>
+          
+        </ul>
+      </div>
+    
+    </div>
       
   </header>
 </template>

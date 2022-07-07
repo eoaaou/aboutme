@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/eoaaou.github.io/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/aboutme/" : "/",
   css: {
     loaderOptions: {
       sass: {

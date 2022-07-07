@@ -1,20 +1,20 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" id="wrapper">
     <app-header />
-    <skill-box />
+    <app-body />
     <app-footer />
   </div>   
 </template>
   
 <script>
 import AppHeader from '@/components/AppHeader.vue'
-import SkillBox from '@/components/SkillBox.vue'
+import AppBody from '@/components/AppBody.vue'
 import AppFooter from '@/components/AppFooter.vue'
 
 export default {
   components: {
     AppHeader,
-    SkillBox,
+    AppBody,
     AppFooter   
   }
 }
